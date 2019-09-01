@@ -1,1 +1,27 @@
+body {
+  background-color: red;
+  color: white;
+}
 
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: pink;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+h1 {
+  color: Yellow;
+}
