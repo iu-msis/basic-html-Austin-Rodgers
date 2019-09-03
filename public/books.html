@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 <head>
-  <title>BookPage</title>
-  <link rel="stylesheet" href="books.css">
+  <title>Books</title>
+  <link rel="stylesheet" href="css/books.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
@@ -69,6 +69,32 @@
     </tr>
   </tbody>
 </table>
-<p>Books Page</p>
+<form>
+<div class="form-group">
+  <label for="title_addition">Title:</label>
+  <input type="text" class="form-control" id="title_input" aria-describedby="emailHelp" placeholder="Enter title">
+</div>
+<div class="form-group">
+  <label for="author_addition">Author(s):</label>
+  <input type="text" class="form-control" id="author_input" placeholder="Enter author(s)">
+</div>
+<div class="form-group">
+  <label for="publish_date_addition">Year Published:</label>
+  <input type="number" class="form-control" id="publish_input" placeholder="Enter publication date">
+</div>
+<div class="form-group">
+  <label for="publisher_addition">Publisher:</label>
+  <input type="text" class="form-control" id="publisher_input" placeholder="Enter the publisher">
+</div>
+<div class="form-group">
+  <label for="page_addition">Pages:</label>
+  <input type="number" class="form-control" id="page_input" placeholder="Enter the number of pages">
+</div>
+<div class="form-group">
+  <label for="price_addition">MSRP:</label>
+  <input type="number" class="form-control" id="price_input" placeholder="Enter the price">
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
 </body>
 </html>

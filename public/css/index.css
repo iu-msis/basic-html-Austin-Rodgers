@@ -5,8 +5,8 @@ table, th, td {
 }
 
 body {
-  background-color: red;
-  color: white;
+  background-color: #F0EAD6;
+  color: black;
 }
 
 a:link {
@@ -29,5 +29,5 @@ a:active {
 }
 
 h1 {
-  color: Yellow;
+  color: blue;
 }
